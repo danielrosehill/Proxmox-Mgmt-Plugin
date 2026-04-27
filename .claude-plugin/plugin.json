@@ -1,0 +1,13 @@
+{
+  "name": "proxmox-mgmt",
+  "version": "1.0.0",
+  "description": "Manage a Proxmox VE host via SSH and the Proxmox API — guided first-run onboarding, VM/CT lifecycle, storage and ZFS inspection, log review, and update workflows. Per-host config is stored outside the plugin so the same install works across multiple Proxmox environments.",
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "public@danielrosehill.com",
+    "url": "https://danielrosehill.com"
+  },
+  "repository": "https://github.com/danielrosehill/Proxmox-Mgmt-Plugin",
+  "license": "MIT",
+  "keywords": ["proxmox", "virtualization", "homelab", "sysadmin", "vm", "lxc", "zfs"]
+}
