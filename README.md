@@ -23,7 +23,7 @@ claude plugins install proxmox-mgmt@danielrosehill
 
 ## Storage convention
 
-This plugin follows the [`claude-rudder:plugin-data-storage`](https://github.com/danielrosehill/Claude-Rudder) convention:
+This plugin follows the [`rudder:plugin-data-storage`](https://github.com/danielrosehill/Claude-Rudder) convention:
 
 - **Plugin code** lives at the install path (read-only, replaced on update).
 - **User config** lives at `${CLAUDE_USER_DATA:-${XDG_DATA_HOME:-$HOME/.local/share}/claude-plugins}/proxmox-mgmt/config.json`.

@@ -9,7 +9,7 @@ Establish the persistent connection profile for a Proxmox VE host. The same plug
 
 ## Workspace resolution
 
-Resolve the plugin's data directory as `$CLAUDE_USER_DATA/proxmox-mgmt/` if `CLAUDE_USER_DATA` is set; otherwise `$XDG_DATA_HOME/claude-plugins/proxmox-mgmt/` if `XDG_DATA_HOME` is set; otherwise `~/.local/share/claude-plugins/proxmox-mgmt/`. Create the directory if it doesn't exist. See the canonical convention in the `claude-rudder:plugin-data-storage` skill.
+Resolve the plugin's data directory as `$CLAUDE_USER_DATA/proxmox-mgmt/` if `CLAUDE_USER_DATA` is set; otherwise `$XDG_DATA_HOME/claude-plugins/proxmox-mgmt/` if `XDG_DATA_HOME` is set; otherwise `~/.local/share/claude-plugins/proxmox-mgmt/`. Create the directory if it doesn't exist. See the canonical convention in the `rudder:plugin-data-storage` skill.
 
 Shell form:
 
