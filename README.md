@@ -1,5 +1,7 @@
 # Proxmox Management Plugin
 
+**Write-up:** [Claude Code plugins for non-coding work: homelab, data, media and admin](https://blog.danielrosehill.com/posts/claude-code-plugins-non-coding-workflows-xlkdop/)
+
 A Claude Code plugin for managing a [Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview) host. SSH-based diagnostics and lifecycle ops with optional Proxmox API support.
 
 Per-host details (IP, SSH user, API token references) are stored **outside the plugin** at `$CLAUDE_USER_DATA/proxmox-mgmt/config.json`, so the same install works against any number of Proxmox hosts and survives plugin updates.
